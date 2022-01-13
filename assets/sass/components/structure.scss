@@ -1,0 +1,39 @@
+html, body {
+	height: 100%;
+}
+
+html {
+    font-size: $font-size-base;
+
+    body {
+        line-height: $line-height-base;
+        font-weight: $font-weight-light;
+        font-family: $font-standard;
+        background: $color-body;
+        color: $color-text;
+
+        .container {
+            width: $container-width;
+            margin: 0 auto;
+        }
+
+        a.mod-anchor {
+            display: block;
+            visibility: hidden;
+            position: relative;
+
+            // Usually height of the header
+            top: -140px;
+        }
+
+        #app {
+            min-height: 100%;
+            max-width: 1440px;
+            margin: auto;
+            background-color: $color-itm-off-white;
+            letter-spacing: 0;
+            font-weight: $font-weight-regular;
+        }
+    }
+}
+

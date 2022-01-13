@@ -1,0 +1,36 @@
+.form-element {
+	margin: 15px 0;
+
+	&.mod-error {
+		color: $color-error;
+	}
+
+	label {
+		display: block;
+		margin: 0 0 5px 0;
+	}
+
+	input[type="text"] {
+		width: 100%;
+		height: 46px;
+		padding: 8px;
+		border: 1px solid $color-borders;
+		box-sizing: border-box;
+
+		&:focus {
+			outline-color: $color-primary;
+		}
+	}
+
+	textarea {
+		width: 100%;
+		height: 170px;
+		padding: 8px;
+		border: 1px solid $color-borders;
+		box-sizing: border-box;
+
+		&:focus {
+			outline-color: $color-primary;
+		}
+	}
+}

@@ -1,0 +1,40 @@
+.modal {
+	width: 100%;
+	height: 100%;
+	padding-top: 115px;
+	opacity: 0;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	transition: opacity 0.2s ease;
+
+	&.mod-active {
+		opacity: 1;
+		z-index: 999;
+
+		.sub-inner {
+			display: inline-block;
+		}
+	}
+
+	.sub-overlay {
+		width: 100%;
+		height: 100%;
+		background: rgba($color-white, 95%);
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.sub-inner {
+		width: 780px;
+		height: 100%;
+		margin: 0 auto;
+		padding-top: 60px;
+		display: none;
+		position: relative;
+	}
+}

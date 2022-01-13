@@ -1,0 +1,86 @@
+/* COLOURS */
+
+$color-black: #000000;
+$color-white: #ffffff;
+
+$color-body: $color-white;
+
+$color-neutral: #f2f2f2;
+$color-neutral-dark: #cccccc;
+
+$color-borders: #aaaaaa;
+
+$color-text: #464646;
+$color-text-light: #808080;
+
+$color-headings: #4d4d4d;
+
+$color-error: #ff0000;
+
+$color-primary: #38a2f1;
+$color-secondary: #b4d455;
+
+$color-link: $color-primary;
+$color-link-hover: lighten($color-link, 5%);
+$color-link-active: $color-link-hover;
+
+$color-itm-dark-green-gray: #31444A;
+$color-itm-light-gray: #e3efef;
+$color-itm-mid-gray: #f7f7f7;
+$color-itm-dark-gray: #7c7c7c;
+$color-itm-darker-gray: #686868;
+$color-itm-off-white: #fdfdfd;
+$color-itm-blue: #0AB6FF;
+$color-itm-blue-dark: darken(#0AB6FF, 5%);
+
+/* FONTS */
+
+$font-standard: 'Raleway', sans-serif;;
+
+$font-size-base: 15px;
+$font-size-standard: 1em; // 15px
+$font-size-small: 0.87em; // 13px
+$font-size-med: 1.13em; // 17px
+$font-size-large: 1.27em; // 19px
+
+$font-size-small: 0.867rem; // 13px
+$font-size-medium: 1.067rem; // 16px
+$font-size-large: 1.2rem; // 18px
+$font-size-x-large: 1.333rem; // 20px
+$font-size-xx-large: 1.467rem; // 22px
+$font-size-heading-large: 1.867rem; // 28px
+$font-size-heading-x-large: 2.4rem; // 36px
+$font-size-heading-largest: 3.4rem; // 51px
+
+$font-size-h1: 2em; // 30px
+$font-size-h2: 1.73em; // 26px
+$font-size-h3: $font-size-large; // 19px
+$font-size-h4: $font-size-med; // 17px
+$font-size-h5: $font-size-standard; // 16px
+$font-size-h6: $font-size-standard; // 16px
+
+$font-weight-lightest: 100;
+$font-weight-extra-light: 200;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-heavy: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+$headings-font: $font-standard;
+$headings-font-weight: $font-weight-light;
+$headings-color: $color-headings;
+$headings-line-height: 1.4;
+
+$line-height-base: 1.55;
+$line-height-large: 2;
+
+/* STRUCTURE */
+
+$viewport-width: 100%;
+$container-width: 960px;
+$container-width-wide: 1250px;
+$mobile-breakpoint: 900px;
+
+$desktop-section-padding: 52px;
+$mobile-section-padding: 28px;
